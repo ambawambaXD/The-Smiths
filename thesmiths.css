@@ -1,0 +1,244 @@
+body{
+    font-family: serif;
+    background-image: url(images/logo/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.a{
+  padding-right: 150px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #d5e8ee;
+  background-color: #195263;
+  background-image: url(images/logo/navbar.jpg);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ebe9e9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #000000;
+  background-image: url(images/logo/hover.png);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #000000;
+  background-image: url(images/logo/hover.png);
+  background-repeat: no-repeat;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  background-image: url(images/logo/navbar.jpg);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #000000;
+  background-image: url(images/logo/hover2.png);
+  background-repeat: no-repeat;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column1{
+  float: center;
+  width: 88%;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 60px;
+  height: 75%;
+  margin: 30px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+  background-color: #066873;
+  line-height: 2;
+  border: 2px solid rgb(163, 201, 221);
+  border-radius: 5px;
+  }
+
+.column2{
+  float: left;
+  width: 35%;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 60px;
+  height: 210px;
+  margin: 30px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+  background-color: #0a444b;
+  line-height: 2;
+  border: 2px solid rgb(163, 201, 221);
+  border-radius: 15px;
+  }
+
+  .column3{
+    float: center;
+    width: 88%;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 60px;
+    height: 1150px;
+    margin: 30px;
+    margin-bottom: 60px;
+    background-color: #066873;
+    line-height: 2;
+    border: 2px solid rgb(163, 201, 221);
+    border-radius: 5px;
+    }
+
+    .column4{
+      float: center;
+      width: 88%;
+      padding: 30px;
+      padding-left: 50px;
+      padding-right: 60px;
+      height: 1350px;
+      margin: 30px;
+      margin-bottom: 60px;
+      background-color: #066873;
+      line-height: 2;
+      border: 2px solid rgb(163, 201, 221);
+      border-radius: 5px;
+      }
+
+      
+  .column5{
+    float: center;
+    width: 88%;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 60px;
+    height: 1050px;
+    margin: 30px;
+    margin-bottom: 60px;
+    background-color: #066873;
+    line-height: 2;
+    border: 2px solid rgb(163, 201, 221);
+    border-radius: 5px;
+    }
+
+    .column-left {
+      float: left;
+      width: 40%;
+      padding: 30px;
+      background-color: #066873;
+      line-height: 2;
+      border: 2px solid black;
+      border-radius: 15px;
+    }
+    
+    .column-right {
+      float: right;
+      width: 40%;
+      padding: 30px;
+      background-color: #066873;
+      line-height: 2;
+      border: 2px solid black;
+      border-radius: 15px;
+    }
+    
+  
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .image-text-container {
+      display: flex;
+      align-items: flex-start;
+  }
+  
+  .image {
+      margin-right: 20px;
+  }
+  
+  .text {
+      max-width: 600px;
+  }
+
+  #raccoon {
+    border-radius: 0%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+  
+  #raccoon:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
